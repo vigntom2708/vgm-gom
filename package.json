@@ -1,0 +1,28 @@
+{
+  "name": "vgm-gom",
+  "version": "0.0.1",
+  "description": "Url Srortener Microservice",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "urt": "git+https://github.com/vigntom2708/vgm-gom.git"
+  },
+  "author": "Aleksandr Ignatyev <vigntom.2708@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "6.9.4",
+    "npm": "3.10.10",
+    "yarn": "0.27.5"
+  },
+  "scripts": {
+    "test": "",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "validator": "^8.0.0"
+  }
+}
