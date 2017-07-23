@@ -15,7 +15,7 @@
     "yarn": "0.27.5"
   },
   "scripts": {
-    "test": "",
+    "test": "ava",
     "start": "node index.js"
   },
   "devDependencies": {
@@ -24,5 +24,18 @@
   },
   "dependencies": {
     "validator": "^8.0.0"
+  },
+  "ava": {
+    "files": [
+      "test/*.test.js"
+    ],
+    "source": [
+      "lib/*.js"
+    ],
+    "tap": false,
+    "verbose": true,
+    "concurrency": 5,
+    "fail-fast": true,
+    "color": true
   }
 }
