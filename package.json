@@ -20,9 +20,12 @@
   },
   "devDependencies": {
     "ava": "^0.21.0",
-    "supertest": "^3.0.0"
+    "standard": "^10.0.2",
+    "supertest": "^3.0.0",
+    "tern": "^0.21.0"
   },
   "dependencies": {
+    "redis": "^2.7.1",
     "validator": "^8.0.0"
   },
   "ava": {
