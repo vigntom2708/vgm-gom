@@ -1,6 +1,6 @@
 import request from 'supertest'
 import test from 'ava'
-import { server } from './../lib/server'
+import server from './../lib/server'
 
 function testRequest (title, str, task) {
   test.cb(title, t => {
@@ -34,8 +34,3 @@ testRequest('Invalid Url', '/?url=invalid://format', (t, res) => {
 testRequest('Valid Url', '/?url=https://www.example.com/foo?moo=poo&bdoom=true', (t, res) => {
   t.truthy(res.body.url, 'Valid request')
 })
-
-// test.cb('Redirecting', t => {
-//   request(server)
-//     .get('/:id')
-// })
