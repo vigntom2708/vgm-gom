@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "urt": "git+https://github.com/vigntom2708/vgm-gom.git"
+    "url": "git+https://github.com/vigntom2708/vgm-gom.git"
   },
   "author": "Aleksandr Ignatyev <vigntom.2708@gmail.com>",
   "license": "MIT",
